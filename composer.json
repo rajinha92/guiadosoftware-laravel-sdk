@@ -5,7 +5,8 @@
     "require": {
         "illuminate/config": "^5.2",
         "illuminate/support": "^5.2",
-        "php": "^7.0"
+        "php": "^7.0",
+        "rajinha92/guiadosoftware-sdk": "dev-master"
     },
     "license": "MIT",
     "authors": [
