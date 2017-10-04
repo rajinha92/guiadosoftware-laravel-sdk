@@ -26,7 +26,7 @@ class GuiaDoSoftwareServiceProvider extends ServiceProvider
 	public function boot()
 	{
 		$this->publishes(
-			['../config/gds.php' => config_path('gds.php'),]
+			[basename(__DIR__) . 'config/gds.php' => config_path('gds.php'),]
 		);
 	}
 }
